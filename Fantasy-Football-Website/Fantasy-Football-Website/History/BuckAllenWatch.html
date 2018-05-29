@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../style.css">
+
+<title>Touchdowns for Tattoo</title>
+
+</head>
+<body>
+<header>
+<h1>Touchdowns for Tattoo</h1>
+</header>
+<nav class="menu">
+  <ul>
+  	<li class="navli"><a href="index.html">About our League</a></li>
+
+    <li class="navli"><a href="Standings.html">Standings</a></li>
+    <li class="navli"><a href="playoffpicture.html">Playoff Picture</a></li>
+    
+    <li class="navli"><a href="Leaguehistory.html">League History</a></li>
+    <li class="navli"><a href="Extras.html">Extras</a></li>
+
+
+  </ul>
+</nav>
+
+
+<div class="development">
+<p> This is Page is a historical reference to the prop bet of 2017 where Matt said he would get a tattoo of Buck Allena after Karen drafted him as the 35th RB off the board. Ironically, he finished 25th. Matt won the bet, but Karen won the pick. </p>
+	<img class="construction" src="http://static.nfl.com/static/content/public/static/img/fantasy/transparent/200x200/ALL469092.png" alt="A picture of Buck Allen">
+</div>
+
+
+<div class="timer">
+<h2>Buck Allen Watch! Will he finish top <span class="rank">24</span>?</h2> 
+ <h2 class="timerheading">Buck Allen's current rank: <span class="rank"> 23</span>
+    </br>
+    Buck Allen's total points:<span class="rank">107.6</span> </br></h2>
+	 
+   <div class="col one"> <p class="competitors">Possible Competitors</style>
+    <ul>
+      <li>CJ Anderson: Rank 24: Total Points 106.1</li>
+      <li>Dion Lewis: Rank 25: Total Points 105.2</li>
+      <li>Alex Collins: Rank 26: Total Points 103.5</li>
+      <li>Tarik Coen: Rank 27: Total points 101.6</li>
+      <li>Isaiah Crowell: Rank 28: Total Points 99.5</li>
+      <li>Latavius Murray: Rank 29: Total Points 98.2</li>
+      
+    </ul>
+  </div>
+
+
+  <div class="col two">
+
+    <p> Commentary: I just need two out of CJ Anderson, Lewis, Collins, Coen, Crowell,  LT Murray, and even Darkwa and Burkhead have an off chance. Without any significant injuries on the Ravens offense, it looks like I'll win my outrageous bet.</p>
+	</div>
+
+
+
+</p>
+<p id="demo"></p>
+</div>
+
+<script>
+
+var countDownDate = new Date("December 31, 2017 19:00:00").getTime();
+
+var x = setInterval(function() {
+
+  // todays date and time
+  var now = new Date().getTime();
+
+  var distance = countDownDate - now;
+
+  // Time calculations
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+ 
+
+  // Display result 
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s remaining until the end of the season";
+
+
+  // If the count down is finished...
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "SEASON OVER";
+  }
+}, 1000);
+</script>
+</body>
+</html>
