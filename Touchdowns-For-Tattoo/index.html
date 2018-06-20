@@ -9,8 +9,46 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body class="bg-secondary text-white">
+
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+
+ <ul class="navbar-nav">
+    <li class="nav-item active">
+      <a class="nav-link" href="index.html">About the League</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="LeagueConstitution.html">League Constitution</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Leaguehistory.html">League History</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Extras.html">Extras</a>
+    </li>
+  </ul>
+</nav>
+
+<h1> Welcome to the Touchdowns for Tattoo Fantasy Football Website</h1>
+<h3> Creator: George Arnold </h3>
+<p>  <h2>Important Updates:</h2>
+	Draft day: TBA
+</p>
+<div class="row">
+  <div class="col"> <img class= "img-fluid rounded-circle" height= "100%" data-toggle="tooltip" title="Saquon Barkley, probably the most hyped Rookie since Adrian Peterson, or maybe Trent Richardson" src="https://usatftw.files.wordpress.com/2018/03/sw_saquon_barkley_98093421.jpg?w=1000&h=600&crop=1" alt="Saquon Barkley" ></div>
+  <div class="col"><img class= "img-fluid rounded-circle" height= "100%" data-toggle="tooltip" title="Did you know Larry Fitz has the most fantasy points of any WR in History! I just made that up, but it might be true!" src="http://cover32.com/wp-content/uploads/2016/11/USATSI_9675415_164063748_lowres.jpg" alt="Larry Fitz" >	</div>
+  <div class="col"><img class= "img-fluid rounded-circle" height= "100%" data-toggle="tooltip" title="Andrew, how much does that shoulder hurt?" src="https://sportshub.cbsistatic.com/i/r/2017/10/19/133d9af0-cea5-4f33-b62f-d55ddcd482ff/thumbnail/770x433/5922cc2250c96a92c0dd77c2c34a60e5/andrew-luck-1400.jpg" alt="Andrew Luck"> </div>
+</div>
+<!-- note to self, img-fluid is needed to make image responsive-->
 
 
+
+
+<!-- Script is for hover text above-->
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
 </body>
 </html>
