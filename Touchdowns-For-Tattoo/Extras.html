@@ -28,7 +28,7 @@
 <nav class="navbar navbar-expand-sm bg-primary navbar-dark standard-font">
 
  <ul class="navbar-nav nav-tabs">
-    <li class="nav-item active">
+    <li class="nav-item">
       <a class="nav-link" href="index.html">About the League</a>
     </li>
     <li class="nav-item">
@@ -37,13 +37,24 @@
     <li class="nav-item">
       <a class="nav-link" href="Leaguehistory.html">League History</a>
     </li>
-    <li class="nav-item">
+    <li class="nav-item active">
       <a class="nav-link" href="Extras.html">Extras</a>
     </li>
   </ul>
 </nav>
+<div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Playoff Bracket
+        </button>
+      </h5>
+    </div>
 
-<div class="grid">
+ <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+       <div class="grid">
   <div class="box a">
     <h2 class="bracketheading"> Tattoo Trophy Bracket</h2>
 <main class="tournament">
@@ -103,5 +114,9 @@
   </ul>   
   <div class="Tattoo"> The Charlotte Trophy Winner! </div>
 </main>
+      </div>
+    </div>
+  </div>
+
 </body>
 </html>

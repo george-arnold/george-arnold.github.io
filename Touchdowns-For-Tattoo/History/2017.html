@@ -8,7 +8,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-     <link href="https://fonts.googleapis.com/css?family=Markazi+Text" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Markazi+Text" rel="stylesheet">
    <style type="text/css">
 
 .standard-font {
@@ -17,24 +17,80 @@
 }
 </style>
 </head>
-	<header>
-<h1>Touchdowns for Tattoo</h1>
-</header>
-<body class="bg-secondary text-white">
 
-<nav class="menu">
-  <ul>
-  	<li class="navli"><a href="index.html">About our League</a></li>
-
-    <li class="navli"><a href="Standings.html">Standings</a></li>
-    <li class="navli"><a href="playoffpicture.html">Playoff Picture</a></li>
-    
-    <li class="navli"><a href="Leaguehistory.html">League History</a></li>
-    <li class="navli"><a href="Extras.html">Extras</a></li>
+<body class="bg-secondary text-white standard-font">
 
 
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark standard-font" style="font-weight: normal;">
+
+ <ul class="navbar-nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link" href="../index.html">About the League</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="../LeagueConstitution.html">League Constitution</a>
+    </li>
+    <li class="nav-item active">
+      <a class="nav-link" href="../Leaguehistory.html">League History</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="../Extras.html">Extras</a>
+    </li>
   </ul>
-</nav><div class="container">
+</nav>
+<div class="dropdown show">
+  <a class="btn btn-primary dropdown-toggle role="button" id="Dropdownbyyear" data-toggle="dropdown" aria-haspopup="true" aria-expanded= "false">History by the Years</a>
+  <div class="dropdown-menu" aria-labelledby="Dropdownbyyear">
+    <a class="dropdown-item" href="2012.html">2012</a>
+    <a class="dropdown-item" href="2013.html">2013</a>
+    <a class="dropdown-item" href="2014.html">2014</a>
+    <a class="dropdown-item" href="2015.html">2015</a>
+    <a class="dropdown-item" href="2016.html">2016</a>
+    <a class="dropdown-item" href="2017.html">2017</a>
+  </div>
+</div>
+</div>
+<h2 class="text-center">2017 History</h2>
+<div id="accordion">
+  <div class="card">
+    <div class="card-header bg-success" id="headingthree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="color:black; font-size: 30px">
+         Facts About the Year
+        </button>
+      </h5>
+    </div>
+
+ <div id="collapseThree" class="collapse" aria-labelledby="headingthree" data-parent="#accordion">
+      <div class="card-body bg-secondary">
+  <div class="card bg-secondary">
+
+<ul>
+  <li>
+    Kevin brings the Tattoo trophy back to Maryland
+  </li>
+  <li>
+    Karen pulls off a first-ever Charlotte trophy victory
+  </li>
+  <li>
+    Matt wins the middle child trophy for the first time in its history
+  </li>
+</ul>
+</div>
+</div>
+</div>
+
+    <div class="card-header bg-warning" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="color:black; font-size: 30px">
+          End of Year Standings
+        </button>
+      </h5>
+    </div>
+
+ <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body bg-secondary">
+<div class="container">
 	<table class="table table-striped">
 	<tr>
 		<th colspan="3">Touchdowns for Tattoo Standings</th>
@@ -108,3 +164,25 @@
   </tr>
 </table>
 </div>
+</div>
+</div>
+</div>
+<div class="card">
+    <div class="card-header bg-primary" id="headingfour">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsefour" aria-expanded="false" aria-controls="collapsefout" style="color:black; font-size: 30px">
+         Draft Day 2017
+        </button>
+      </h5>
+    </div>
+
+ <div id="collapsefour" class="collapse" aria-labelledby="headingfour" data-parent="#accordion">
+      <div class="card-body bg-secondary">
+  <div class="card bg-secondary">
+<!--input info -->
+  </div>
+</div>
+</div>
+</div>
+
+</div> <!-- accordian-->
