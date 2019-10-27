@@ -1,8 +1,52 @@
 
+/*home page css*/
+* { 
+  box-sizing: Border-box; 
+} 
+body {
+  background-color: black;
+  color: white;
 
+}
+h1 {
+  text-align: center;
+  background-image: linear-gradient(to right, rgb(180, 5, 180),rgb(85, 14, 85));
+  color: white;
+}
 
+figcaption {
+  text-align: center;
+  color: rgb(8, 185, 8);
+}
+.container {
+  display: flex;
+  width: 100%;
+}
 
+.main-nav {
+ flex-direction: row;
+ justify-content: space-around;
+}
 
+.img-nav {
+  width: 200px;
+  height: 125px;
+}
+.img-h {
+  border: 2px solid rgb(180, 5, 180);
+  border-radius: 10px;
+}
+.img-h:hover {
+  transform: scale(1.1);
+}
+
+.podcast {
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+ 
+/* other stuff */
 
 .bracketheading{
 	background-color:#333;
@@ -10,53 +54,17 @@
 
 
 
-
-
-
-
-
-
-/*Change all over commands to classes */
-
-
-
-
-
-li a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-
-
-header {
-
-}
-
 .history{
 	border: 2px solid white;
 }
 
 
-
-
-h2 {text-align: center;
-border-top: 2px solid white;
-border-bottom: 2px solid white;
-padding-bottom: 5px;
-padding-top: 5px;}
-
-
-
-
 /*
    Tournament Bracket CSS
 */
-main{
+
+/* adjust this with classes */
+.playoff {
   display:flex;
   flex-direction:row;
 }
